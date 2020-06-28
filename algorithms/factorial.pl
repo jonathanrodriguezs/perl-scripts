@@ -1,4 +1,6 @@
 #!/usr/bin/perl
+use strict;
+use warnings;
 
 # factorial recursive ($n) computes the factorial of $n
 # using a recursive algorithm.
