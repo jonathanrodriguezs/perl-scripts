@@ -1,9 +1,8 @@
 #!/usr/bin/perl
 sub get_line {
-    my $text = <STDIN>;
-    $text =~ s/\n//g;
-    $text =~ s/\r//g;
-    return $text;
+    my $line = <STDIN>;
+    $line =~ s/\R//g;
+    return $line;
 }
 
 print "Who are you? ";
